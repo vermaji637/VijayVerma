@@ -1,0 +1,35 @@
+body{font-family:'Poppins',sans-serif;background:#0f1115;color:#e6e6e6;line-height:1.6}
+.navbar{background:rgba(15,17,21,.9)!important}
+.navbar .nav-link{color:#c9ced6!important}
+.navbar .nav-link.active,.navbar .nav-link:hover{color:#fff!important}
+.hero{position:relative}
+.hero::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.hero .container{position:relative;z-index:1}
+.profile-pic{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.8);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+#home h1{color:#fff}
+#home h1 span{color:#6ea8fe}
+#home h3{color:#d1d7e0}
+section{background:#0f1115}
+#about,#skills,#projects,#contact{background:linear-gradient(180deg,#0f1115 0,#12151b 100%)}
+.about-pic{max-width:320px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.skill-box{background:#161a22;border:1px solid #222836;color:#cfd6e4;padding:14px;border-radius:10px;font-weight:600;box-shadow:0 6px 18px rgba(0,0,0,.25);cursor:pointer;transition:transform .2s ease,background-color .2s ease,border-color .2s ease,color .2s ease}
+.skill-box:hover{transform:translateY(-2px);background:#3a7bfd;border-color:#3a7bfd;color:#0f1115}
+.project-card{background:#161a22;color:#e6e6e6}
+.project-card .card-title{color:#fff}
+.project-card .card-text{color:#c9ced6}
+footer{background:#0c0e12;border-top:1px solid #1c2330}
+.btn-primary{background:#3a7bfd;border-color:#3a7bfd}
+.btn-primary:hover{background:#2f68d8;border-color:#2f68d8}
+.btn-outline-primary{color:#79a9ff;border-color:#79a9ff}
+.btn-outline-primary:hover{background:#79a9ff;color:#0f1115}
+.btn-outline-light{color:#e6e6e6;border-color:#e6e6e6}
+.btn-outline-light:hover{background:#e6e6e6;color:#0f1115}
+.text-light{color:#cfd6e4!important}
+.card-img-top{border-top-left-radius:12px;border-top-right-radius:12px}
+.card{border-radius:12px;overflow:hidden}
+.social-links .btn{min-width:110px}
+@media (max-width: 767.98px){
+  .profile-pic{width:120px;height:120px}
+  .navbar-brand{font-size:1.1rem}
+  .hero{height:auto;min-height:100vh}
+}
